@@ -1,0 +1,10 @@
+/* src/Components/Navbar.css */
+.MuiButton-root {
+    font-size: 1rem;
+    text-transform: none;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: rgba(242, 254, 10, 0.08);
+  }
+  

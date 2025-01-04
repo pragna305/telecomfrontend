@@ -1,0 +1,111 @@
+/* src/Components/Dashboard.css */
+
+/* General Layout */
+.dashboard {
+    background: linear-gradient(to right, #9edf4e, #224abe);
+    min-height: 100vh;
+    color: rgb(227, 115, 115);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px; /* Space for Navbar */
+  }
+  
+  /* Header Section */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1d3d8c;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .dashboard-header .date {
+    font-size: 18px;
+    color: #eeeeee;
+  }
+  
+  /* Cards Section */
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual Card Style */
+  .card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Table Section */
+  .dashboard-table {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .dashboard-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th, .dashboard-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .dashboard-table th {
+    background-color: #4e73df;
+    color: white;
+  }
+  
+  .dashboard-table td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Table row hover effect */
+  .dashboard-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Footer Section */
+  .dashboard-footer {
+    margin-top: auto;
+    padding: 15px;
+    background-color: #1d3d8c;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+  }
+  
